@@ -1,4 +1,3 @@
-require('dotenv').config();
 const imageContainer = document.getElementById('image-container');
 const loader = document.getElementById('loader');
 
@@ -6,7 +5,7 @@ let photosArray = [];
 
 // Unsplash API
 const count = 3;
-const apiKey = '${secretKey}';
+const apiKey = 'WT0X0XvpLDub3AR473avJD-QdFLsWnkZSdPUzHF1kQY';
 const apiUrl = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${count}`;
 
 // Helper Function to Set Attributes on DOM Elements
